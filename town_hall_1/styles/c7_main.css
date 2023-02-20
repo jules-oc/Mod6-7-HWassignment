@@ -15,9 +15,6 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
-a:focus, a:hover {
-	font-style: italic;
-}
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
@@ -58,7 +55,6 @@ header img {
 	float: left;
 } 
 #nav_menu ul li a { 
-	display: block;
 	width: 160px;
 	text-align: center;
 	padding-top: 1em;
@@ -67,26 +63,26 @@ header img {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
+	display: block;
 }
 #nav_menu a.current { 
 	color: yellow;
 }
 #nav_menu ul ul {
-	display: block;
 	position: absolute;
 	text-align: center;
 	top: 100%;
 	float: none;
 }
-#nav_menu ul li:hover > ul {
-	display: block;
-}
 #nav_menu > ul::after {
     content: "";
     clear: both;
-    display: block;
+	display: block;
 }
-
+a:focus, a:hover {
+	font-style: italic;
+	display: block;
+}
 
 /* the styles for the section */
 section {
