@@ -58,10 +58,16 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
+main h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
+}
 
 main h2 {
 	color: #800000;
-	font-size: 130%;
+	font-size: 120%;
 	padding: .5em 0 .25em 0;
 }
 main h3 {
@@ -93,12 +99,14 @@ article {
 }
 article h2 {
 	padding-top: 0;
+	font-size: 110%;
 }
 article img {
 	float: right; 
 	margin-top: 2px;
 	margin-bottom: 2px;
 	margin-left: 2px;
+	border: 2px solid black;
 }
 article h3 {
 	font-size: 105%;
@@ -109,7 +117,13 @@ article h3 {
 
 aside {
 	padding-left: 20px;
-	padding-bottom: 20px;
+}
+
+aside h1 {
+	font-size: 120%;
+	color: #800000;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 aside h3 {
